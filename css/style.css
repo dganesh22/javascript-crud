@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x:hidden;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #eee;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+
+}
+
+.form {
+    background-color: #fff;
+}
+
+.form .card {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: #f3f2f2;
+}
+
+.form .card .card-body {
+    padding: 12px;
+}
+
+.form .card-body .form-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-body #myForm input {
+    padding: 12px 14px;
+    margin: 10px;
+}
+
+.btn-success {
+    background-color: #222;
+}
+
+
+table,tr,th,td {
+    border: 1px solid #222;
+    border-collapse: collapse;
+}
+
+tr,td,th {
+    padding: 12px;
+    text-align: center;
+}
+
+button {
+    padding: 10px 12px;
+    font-size: 1rem;
+    color: #fff;
+    border:none;
+}
+
+.edit {
+    background-color: green;
+}
+
+.delete {
+    background-color: orangered;
+}
+
+
+@media screen and (max-width: 567px) {
+    .container {
+       display: block;
+    }
+}
